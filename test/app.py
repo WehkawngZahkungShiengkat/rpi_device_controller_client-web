@@ -3,6 +3,7 @@ from test.client import let_start, trigger_func, set_payload, is_online
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel, Field
 from enum import Enum
+import json
 # from fastapi.testclient import TestClient
 import asyncio
 import websockets
@@ -70,7 +71,7 @@ async def post_ok(req: SorterControl = Body(...)):
     print("type1: ", type(req))
     print("d_rec: ", d_rec)
     ws_data = {"status": d_rec["status"], "setting": d_rec["setting"]}
-    await set_payload(str(ws_data))
+    await set_payload(json.dumps(ws_data))
     return d_rec
 # def test_websocket():
 #     # client = TestClient(app)
