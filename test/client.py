@@ -48,8 +48,7 @@ async def send_payload(ws_in):
 
 async def hello():
     uri = "ws://192.168.0.101:8000/ws"
-    print("ws--")
-    # while True:
+    print("ws--", uri)
     async for websocket in websockets.connect(uri, ping_timeout=None):
         try:
             await websocket.send("ok")
@@ -64,3 +63,4 @@ async def hello():
         except websockets.ConnectionClosed:
             print("continue")
             continue
+    print("at the end of ws")
