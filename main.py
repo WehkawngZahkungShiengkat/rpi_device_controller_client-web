@@ -73,4 +73,5 @@ import uvicorn
 import threading
 
 if __name__ == '__main__':
-    uvicorn.run("test.app:app", host="0.0.0.0", port=8888, reload=True)
+    # uvicorn.run("test.app:app", host="0.0.0.0", port=8888, reload=True)
+    uvicorn.run("test.app:app", host="0.0.0.0", port=8811, reload=True)

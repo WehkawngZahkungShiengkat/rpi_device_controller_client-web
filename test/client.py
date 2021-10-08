@@ -55,7 +55,7 @@ async def send_payload(ws_in):
 
 
 async def hello():
-    uri = "ws://192.168.0.101:8000/ws"
+    uri = "ws://192.168.1.199:800/ws"
     print("ws--")
     async for websocket in websockets.connect(uri, ping_timeout=None):
         try:

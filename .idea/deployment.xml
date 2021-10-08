@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="ubuntu@192.168.0.101:22" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="ws_client_testing_from_facnet" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="linebot@165.22.102.140">
         <serverdata>
@@ -20,6 +20,13 @@
         <serverdata>
           <mappings>
             <mapping deploy="/test" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sorterctrller">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -62,6 +69,13 @@
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ws_client_testing_from_facnet">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/textingPurpose/fapiws_client" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
