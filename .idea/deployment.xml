@@ -75,7 +75,7 @@
       <paths name="ws_client_testing_from_facnet">
         <serverdata>
           <mappings>
-            <mapping deploy="/textingPurpose/fapiws_client" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/folder" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="aac0ccd3-d894-45f0-b7b8-9b3a2828614e" name="ws_client_testing_from_facnet">
-        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="192.168.1.100" port="22" sshConfigId="a099e566-4e96-46e8-a634-d6971d78b797" sshConfig="ubuntu@192.168.1.100:22 password">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="192.168.0.101" port="22" sshConfigId="dde57daa-a436-43b9-8d87-769d748af190" sshConfig="ubuntu@192.168.0.101:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

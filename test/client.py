@@ -30,12 +30,12 @@ async def trigger_func():
     print("after: ", trigger)
 
 async def set_payload(data):
-    global payload_data
-    global trigger
-    print("before: ", trigger)
-    trigger = True
-    print("after: ", trigger)
-    print("payload data: ", payload_data)
+    # global payload_data
+    # global trigger
+    # print("before: ", trigger)
+    # trigger = True
+    # print("after: ", trigger)
+    print("payload data: ", data)
     await ws_conn.send(data)
 
 
@@ -55,7 +55,7 @@ async def send_payload(ws_in):
 
 
 async def hello():
-    uri = "ws://192.168.1.199:800/ws"
+    uri = "ws://192.168.1.100:9999/ws"
     print("ws--")
     async for websocket in websockets.connect(uri, ping_timeout=None):
         try:
